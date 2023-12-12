@@ -10,7 +10,7 @@ body {
   font-family: 'lucida sans';
   line-height: 1.5;
 }
-/* nav css added - flexbox model used - padding and margin adjusted */
+/* nav css added - flexbox model used - padding and margin adjusted - font adjusted*/
 nav {
   float: right;
   font-family: 'Lucida Grande';
@@ -25,3 +25,14 @@ nav a {
   padding: 6px 12px;
   margin-right: -12px;
 }
+
+/* background place holder image added - flexbox display used */
+.hero-banner {
+  background-image: url("../images/02-portfolio-4.jpg");
+  background-position: center;
+  display: flex;
+  min-height: 40vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  padding: 3% 8%;}
