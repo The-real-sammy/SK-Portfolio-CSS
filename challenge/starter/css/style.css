@@ -9,7 +9,19 @@ body {
   padding: 0;
   font-family: 'lucida sans';
   line-height: 1.5;
+
 }
+/* header added - container and background coulour added - flex box model used */
+header {
+  padding: 20px;
+  font-family:'Lucida Sans'; 
+  background-color:#668e81;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 /* nav css added - flexbox model used - padding and margin adjusted - font adjusted*/
 nav {
   float: right;
@@ -22,8 +34,8 @@ nav {
 
 nav a {
   color: white;
-  padding: 6px 12px;
-  margin-right: -12px;
+  padding: 6px 14px;
+  margin-right: -15px;
 }
 
 /* background place holder image added - flexbox display used */
@@ -36,3 +48,26 @@ nav a {
   align-items: flex-end;
   text-align: right;
   padding: 3% 8%;}
+
+  .hero-banner h2 {
+    display: inline;
+    padding: 5px 10px;
+    color: white;
+  }
+
+h1 {
+  color: white;
+  padding: 6px 12px;
+  margin-left: -15px;
+  
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: white;
+}
