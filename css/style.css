@@ -87,6 +87,8 @@ flex-direction: row;
   grid-template-columns: auto auto auto;
   flex-direction: row;
   justify-content: space-evenly;
+  border-bottom: 2px solid #053726;
+
 }
 .about-title {
   color: white;
@@ -109,14 +111,17 @@ flex-direction: row;
 
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #91cbb8;
+  display: grid;
+  align-items: flex-start;
+  margin: 2%;
+ 
 }
 
 .prework {
-  width: 100%;
-  border
+  grid-column-start: 2;
+  grid-column-end: 5;
+  border: 2px solid #3b584e;
+  min-height: 10vh;
 }
 
 /* .flex-container > div {
