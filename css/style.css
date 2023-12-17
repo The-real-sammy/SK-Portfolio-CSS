@@ -113,15 +113,22 @@ flex-direction: row;
 .flex-container {
   display: grid;
   align-items: flex-start;
-  margin: 2%;
+  margin: 5%;
+ 
  
 }
 
 .prework {
   grid-column-start: 2;
-  grid-column-end: 5;
-  border: 2px solid #3b584e;
+  grid-column-end: 4;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
   min-height: 10vh;
+  background-image: url("../images/pre-work-02.png");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
 }
 
 /* .flex-container > div {
@@ -132,7 +139,7 @@ flex-direction: row;
   font-size: 30px;} */
 
 .flex-item {
-  background-image: url("../images/02-portfolio-4.jpg");
+ 
   display: flex;
   min-height: 40vh;
   justify-content: flex-end;
