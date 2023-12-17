@@ -82,18 +82,31 @@ flex-direction: row;
 } */
 
 
-.page-section {
-  display: flex;
+#about {
+  display: grid;
+  grid-template-columns: auto auto auto;
   flex-direction: row;
+  justify-content: space-evenly;
+}
+.about-title {
+  color: white;
+  padding: 8px 8px;
+  margin-left: 10px;
+  justify-content: center;
+  align-self: center;
+  flex-flow: row nowrap;
 }
 
 .about-me {
   color: white;
   padding: 6px 12px;
   margin-left: 10%;
-  justify-content: center;
-
+  align-self: center;
+  min-width: 50px;
+  grid-column-start: 2;
+  grid-column-end: 4;
 }
+
 
 .flex-container {
   display: flex;
