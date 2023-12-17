@@ -1,20 +1,18 @@
 * {
   box-sizing: border-box;
   background-color: #668e81;
-  
+  font-family: sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'lucida sans';
   line-height: 1.5;
 }
 
 /* header added - container and background coulour added - flex box model used */
 header {
   /* padding: 0px; */
-  font-family:'Lucida Sans'; 
   background-color: #053726;
   display: flex;
   flex-direction: row;
@@ -25,7 +23,6 @@ header {
 /* nav css added - flexbox model used - padding and margin adjusted - font adjusted*/
 nav {
   background-color: #053726;
-  font-family: 'Lucida Grande';
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -87,6 +84,8 @@ flex-direction: row;
   grid-template-columns: auto auto auto;
   flex-direction: row;
   justify-content: space-evenly;
+  border-bottom: 2px solid #053726;
+
 }
 .about-title {
   color: white;
@@ -109,78 +108,94 @@ flex-direction: row;
 
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #91cbb8;
+  display: grid;
+  align-items: flex-start;
+  margin: 5%;
+ 
+ 
 }
-
+.horiseon {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
+  background-image: url("../images/challenge-01.png");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
+  min-height: 40vh;
+} 
 .prework {
-  width: 100%;
-  border
+  grid-column-start: 2;
+  grid-column-end: 3;
+  row-gap: 50px;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
+  min-height: 30vh;
+  background-image: url("../images/pre-work-02.png");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
 }
 
-/* .flex-container > div {
-  align-items: stretch;
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;} */
 
-.flex-item {
+.project-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  row-gap: 50px;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
+  min-height: 30vh;
+  background-image: url("../images/02-portfolio-2.jpg");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
+}
+
+.project-4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  row-gap: 50px;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
+  min-height: 30vh;
+  background-image: url("../images/02-portfolio-3.jpg");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
+}
+
+.project-5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  row-gap: 50px;
+  background:#e4f3ee;
+  border: 5px solid #3b584e;
+  min-height: 30vh;
   background-image: url("../images/02-portfolio-4.jpg");
+  background-size: contain;
+  min-width: max-content;
+  opacity: 70%;
+  text-align: center;
+}
+
+/* .flex-item {
+ 
   display: flex;
   min-height: 40vh;
   justify-content: flex-end;
   align-items: bottom;
   text-align: right;
-  padding: 3% 8%;}
-
-
-/* .prework {
-  background-image: url("../images/02-portfolio-2.jpg");
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: right;
-  padding: 3% 8%;}
-
-.horiseon {
-  background-image: url("../images/02-portfolio-2.jpg");
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: right;
   padding: 3% 8%;} */
 
-/* .project-3 {
-  background-image: url("../images/02-portfolio-2.jpg");
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: right;
-  padding: 3% 8%;}
 
-.project-4 {
-  background-image: url("../images/02-portfolio-2.jpg");
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: right;
-  padding: 3% 8%;}
+ /* End work section */
 
-.project-5 {
-  background-image: url("../images/02-portfolio-2.jpg");
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: center;
-  text-align: right;
-  padding: 3% 8%;} */
-
+ /* start foorter */
 footer {
  display: flex;
  flex-direction: row;
@@ -195,7 +210,7 @@ footer {
   justify-content: left;
 }
 
-
+/* End footer */
 
 
 p {
