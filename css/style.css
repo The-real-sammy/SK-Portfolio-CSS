@@ -66,7 +66,7 @@ h1 {
   background-color: #668e81; 
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, {
   color: white;
   padding: 6px 12px;
   margin-right: 0;
@@ -107,7 +107,7 @@ flex-direction: row;
 }
 
 
- /* start worsection */
+ /* start work section */
 
 .flex-container {
   display: grid;
@@ -183,13 +183,20 @@ flex-direction: row;
   text-align: center;
 }
 
- /* End work section
+/* End work section  */
 
+/* contact */
 
+.page-section {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: 20px;
+}
 
-#contact {
+.contact-link {
+  grid-column-start: 3;
+  grid-column-end: 4;
   float: left;
-  font-family: 'Lucida Grande';
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -198,9 +205,14 @@ flex-direction: row;
 
 
  /* start foorter */
-/* footer {
-  display: grid;
- } */
+h6 {
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #053726;
+color: white;
+min-height: 10vh;
+}
 /* End footer */
 
 
