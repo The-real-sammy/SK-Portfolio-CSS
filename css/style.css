@@ -10,9 +10,9 @@ body {
   line-height: 1.5;
 }
 
+/* header start */
 /* header added - container and background coulour added - flex box model used */
 header {
-  /* padding: 0px; */
   background-color: #053726;
   display: flex;
   flex-direction: row;
@@ -39,7 +39,9 @@ nav a {
   min-height:auto;
   align-self: center;
 }
+/* End Header */
 
+/* start Hero-banner */
 /* background place holder image added - flexbox display used */
 .hero-banner {
   background-image: url("../images/header\ plants\ .jpeg");
@@ -52,9 +54,11 @@ nav a {
   border-bottom: 5px solid #053726;
 }
 
-  .hero-banner h2 {
+  .hero-banner h3 {
     display: inline;
     padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-right: 120px;
     color: white;
     border: 4px solid #3b584e;
   }
@@ -66,18 +70,21 @@ h1 {
   background-color: #668e81; 
 }
 
-h2, h3, h4, h5, {
+h2 { 
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* End Hero banner */
+
+h3, h4, h5, {
   color: white;
   padding: 6px 12px;
   margin-right: 0;
   flex-direction: flex-end;
 }
 
-/* section {
-display: flex; 
-flex-direction: row;
-} */
-
+/* Start About-me section */
 
 #about {
   display: grid;
@@ -85,11 +92,12 @@ flex-direction: row;
   flex-direction: row;
   justify-content: space-evenly;
   border-bottom: 2px solid #053726;
+  margin-top: 10px;
 
 }
 .about-title {
   color: white;
-  padding: 8px 8px;
+  padding: -14px 8px;
   margin-left: 10px;
   justify-content: center;
   align-self: center;
@@ -105,19 +113,25 @@ flex-direction: row;
   grid-column-start: 2;
   grid-column-end: 4;
 }
-
+/* End About me section */
 
  /* start work section */
 
 .flex-container {
   display: grid;
+  grid-template-columns: auto auto auto auto;
   margin: 5%;
   gap: 20px;
 }
 
 .flex-item { 
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: flex-end;
+}
+
+.work {
+ color: white;
+ padding: 0px 8px;
 }
 
 .horiseon {
@@ -188,20 +202,34 @@ flex-direction: row;
 /* contact */
 
 .page-section {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row wrap; 
+  list-style-type: none;
   margin: 5%;
   grid-template-columns: 20px;
+  color: white;
+}
+
+.contact-title {
+  color: white;
+  padding: 8px 8px;
+  margin-left: 10px;
+  justify-content: flex-start;
+  align-self: center;
+flex-flow: row nowrap
 }
 
 .contact-link {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  float: left;
+  background-color: #053726;
   list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
+  padding: 6px 10px;
+  Color:white;
+  justify-content: flex-end;
+  align-self: center;
 }
+
+
 
 
  /* start foorter */
@@ -212,7 +240,7 @@ text-align: center;
 background-color: #053726;
 color: white;
 min-height: 10vh;
-padding-top: 15px ;
+padding-top: 15px;
 }
 /* End footer */
 
