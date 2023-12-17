@@ -66,7 +66,7 @@ h1 {
   background-color: #668e81; 
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, {
   color: white;
   padding: 6px 12px;
   margin-right: 0;
@@ -107,18 +107,23 @@ flex-direction: row;
 }
 
 
+ /* start work section */
+
 .flex-container {
   display: grid;
-  align-items: flex-start;
   margin: 5%;
- 
- 
+  gap: 20px;
 }
+
+.flex-item { 
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
 .horiseon {
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column: 2 / span 4;
   background:#e4f3ee;
-  border: 5px solid #3b584e;
+  border: 5px solid white;
   background-image: url("../images/challenge-01.png");
   background-size: contain;
   min-width: max-content;
@@ -129,7 +134,6 @@ flex-direction: row;
 .prework {
   grid-column-start: 2;
   grid-column-end: 3;
-  row-gap: 50px;
   background:#e4f3ee;
   border: 5px solid #3b584e;
   min-height: 30vh;
@@ -140,11 +144,9 @@ flex-direction: row;
   text-align: center;
 }
 
-
 .project-3 {
   grid-column-start: 3;
-  grid-column-end: 4;
-  row-gap: 50px;
+  grid-column-end: 6;
   background:#e4f3ee;
   border: 5px solid #3b584e;
   min-height: 30vh;
@@ -158,7 +160,6 @@ flex-direction: row;
 .project-4 {
   grid-column-start: 2;
   grid-column-end: 3;
-  row-gap: 50px;
   background:#e4f3ee;
   border: 5px solid #3b584e;
   min-height: 30vh;
@@ -171,8 +172,7 @@ flex-direction: row;
 
 .project-5 {
   grid-column-start: 3;
-  grid-column-end: 4;
-  row-gap: 50px;
+  grid-column-end: 6;
   background:#e4f3ee;
   border: 5px solid #3b584e;
   min-height: 30vh;
@@ -183,36 +183,39 @@ flex-direction: row;
   text-align: center;
 }
 
-/* .flex-item {
- 
-  display: flex;
-  min-height: 40vh;
-  justify-content: flex-end;
-  align-items: bottom;
-  text-align: right;
-  padding: 3% 8%;} */
+/* End work section  */
 
+/* contact */
 
- /* End work section */
-
- /* start foorter */
-footer {
- display: flex;
- flex-direction: row;
+.page-section {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: 20px;
 }
 
-#contact {
+.contact-link {
+  grid-column-start: 3;
+  grid-column-end: 4;
   float: left;
-  font-family: 'Lucida Grande';
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: left;
 }
 
+
+ /* start foorter */
+h6 {
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #053726;
+color: white;
+min-height: 10vh;
+}
 /* End footer */
 
 
-p {
+/* p {
   margin: 0;
-}
+} */
