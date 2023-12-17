@@ -207,11 +207,12 @@ flex-direction: row;
  /* start foorter */
 h6 {
 justify-content: center;
-align-items: center;
+align-items: flex-end;
 text-align: center;
 background-color: #053726;
 color: white;
 min-height: 10vh;
+padding-top: 15px ;
 }
 /* End footer */
 
