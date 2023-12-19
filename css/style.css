@@ -143,7 +143,7 @@ h3, h4, h5 {
 .horiseon {
   grid-column: 2 / span 2;
   background:#e4f3ee;
-  border: 5px solid white;
+  border: 5px solid #3b584e32;
   background-image: url("../images/challenge-01.png");
   background-size:cover;
   min-width: max-content;
@@ -156,7 +156,7 @@ h3, h4, h5 {
   grid-column-start: 2;
   grid-column-end: 3;
   background:#e4f3ee;
-  border: 5px solid #3b584e;
+  border: 5px solid #3b584e53;
   min-height: 25vh;
   background-image: url("../images/pre-work-02.png");
   background-size: cover;
@@ -170,7 +170,7 @@ h3, h4, h5 {
   grid-column-start: 3;
   grid-column-end: 4;
   background:#e4f3ee;
-  border: 5px solid #3b584e;
+  border: 5px solid #3b584e32;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-2.jpg");
   background-size: cover;
@@ -184,7 +184,7 @@ h3, h4, h5 {
   grid-column-start: 2;
   grid-column-end: 3;
   background:#e4f3ee;
-  border: 5px solid #3b584e;
+  border: 5px solid #3b584e32;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-3.jpg");
   background-size: cover;
@@ -198,7 +198,7 @@ h3, h4, h5 {
   grid-column-start: 3;
   grid-column-end: 4;
   background:#e4f3ee;
-  border: 5px solid #3b584e;
+  border: 5px solid #3b584e32;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-4.jpg");
   background-size:cover;
@@ -211,6 +211,7 @@ h3, h4, h5 {
 .box-text {
   color:#053726;
   background-color: white;
+  border: #3b584e solid 1px;
   opacity: 80%;
   margin-bottom: 5px;
   margin-top: 5px;
