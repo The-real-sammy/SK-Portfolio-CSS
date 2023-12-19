@@ -88,7 +88,7 @@ h3, h4, h5 {
 
 #about {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto 300px 300px;
   flex-direction: row;
   justify-content: space-evenly;
   border-bottom: 2px solid #053726;
@@ -145,8 +145,9 @@ h3, h4, h5 {
   background:#e4f3ee;
   border: 5px solid white;
   background-image: url("../images/challenge-01.png");
-  background-size: contain;
+  background-size:cover;
   min-width: max-content;
+  background-repeat: no-repeat;
   opacity: 70%;
   text-align: center;
   min-height: 40vh;
@@ -158,7 +159,8 @@ h3, h4, h5 {
   border: 5px solid #3b584e;
   min-height: 25vh;
   background-image: url("../images/pre-work-02.png");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-width: max-content;
   opacity: 70%;
   text-align: center;
@@ -171,7 +173,8 @@ h3, h4, h5 {
   border: 5px solid #3b584e;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-2.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-width: max-content;
   opacity: 70%;
   text-align: center;
@@ -184,7 +187,8 @@ h3, h4, h5 {
   border: 5px solid #3b584e;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-3.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-width: max-content;
   opacity: 70%;
   text-align: center;
@@ -197,8 +201,9 @@ h3, h4, h5 {
   border: 5px solid #3b584e;
   min-height: 25vh;
   background-image: url("../images/02-portfolio-4.jpg");
-  background-size: contain;
+  background-size:cover;
   min-width: max-content;
+  background-repeat: no-repeat;
   opacity: 70%;
   text-align: center;
 }
@@ -217,6 +222,7 @@ h3, h4, h5 {
 p {
   margin: 0;
   background-color: white;
+  font-size: 12px;
 }
 
 
