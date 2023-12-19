@@ -200,6 +200,17 @@ h3, h4, h5, {
   text-align: center;
 }
 
+/* .box-text {
+  color: white;
+  background: green;
+  float: ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+} */
+
 /* End work section  */
 
 /* contact */
@@ -229,6 +240,7 @@ h3, h4, h5, {
   flex-direction: row;
   margin-left: 90px;
 }
+
 .contact-link {
   background-color: #053726;
   list-style-type: none;
@@ -236,8 +248,8 @@ h3, h4, h5, {
   Color:white;
   justify-content:flex-end;
   align-self: center;
-
-
+  text-align: end;
+  text-decoration: wavy;
 }
 
 
