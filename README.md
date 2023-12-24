@@ -25,14 +25,15 @@ N/A
 
 ### To use this website you can access it via the deployed web link: 
 
-[[https://the-real-sammy.github.io/semantic-rework/
-](https://the-real-sammy.github.io/semantic-rework/)
+[https://the-real-sammy.github.io/SK-Portfolio-CSS/]
+(https://the-real-sammy.github.io/SK-Portfolio-CSS/)
 
-For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. 
+For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html and css code and notations on how each section was developed and improved for accessibility and responsiveness. 
 
 #### Alternatively review the files within the repo:
 
-[[https://github.com/The-real-sammy/semantic-rework](https://github.com/The-real-sammy/semantic-rework)]
+[https://github.com/The-real-sammy/SK-Portfolio-CSS] 
+(https://github.com/The-real-sammy/SK-Portfolio-CSS)
 
 #### Screenshots of deployed page:
 
@@ -51,7 +52,8 @@ Replace
 ## Credits
 
 Bootcamp spot 1-1 tuition:
-- Rene Trevino
+Beau Teascano
+Jay shapiro
 
 Tutorials:
 
